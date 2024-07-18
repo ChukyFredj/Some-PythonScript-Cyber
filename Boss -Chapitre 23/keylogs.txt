@@ -1,0 +1,22 @@
+qssqsqsqsqsq
+qssqssdddsdssdsdsds
+sdddddd
+ddddddddddddd
+ Key.alt  Key.tab  Key.alt  Key.tab  Key.tab 
+sdsdsdsdsdsdsdsd
+ Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.shift 
+oucou
+r
+m Key.backspace  Key.backspace  Key.backspace  Key.up  Key.up 
+ Key.up  Key.down  Key.enter 
+kill Key.space 
+s
+ddssdsddsdsdssd
+ Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace 
+kill Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace  Key.backspace 
+ Key.backspace  Key.backspace ls Key.enter 
+ Key.up  Key.up  Key.up  Key.up  Key.enter kill Key.space 
+ Key.ctrl ccleear Key.enter clee Key.backspace 
+ar Key.enter 
+jjeesusdsikdskdskdskdsk
+ Key.enter jee Key.space suis Key.space beau

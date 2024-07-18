@@ -1,0 +1,85 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.22
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[32m[+][0m URL: https://www.mon-autoentreprise.fr/ [89.117.117.177]
+[32m[+][0m Started: Mon Jun  5 04:19:34 2023
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-powered-by: PHP/7.4.33
+ |  - x-dns-prefetch-control: on
+ |  - x-litespeed-cache: hit
+ |  - server: LiteSpeed
+ |  - platform: hostinger
+ |  - content-security-policy: upgrade-insecure-requests
+ |  - alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://www.mon-autoentreprise.fr/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://www.mon-autoentreprise.fr/xmlrpc.php
+ | Found By: Link Tag (Passive Detection)
+ | Confidence: 30%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://www.mon-autoentreprise.fr/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m A backup directory has been found: https://www.mon-autoentreprise.fr/wp-content/backup-db/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 70%
+ | Reference: https://github.com/wpscanteam/wpscan/issues/422
+
+[32m[+][0m This site has 'Must Use Plugins': https://www.mon-autoentreprise.fr/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://www.mon-autoentreprise.fr/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.2.2 identified (Latest, released on 2023-05-20).
+ | Found By: Common Wp Includes Query Parameter In Homepage (Passive Detection)
+ |  - https://www.mon-autoentreprise.fr/wp-includes/js/wp-util.min.js?ver=6.2.2
+ | Confirmed By:
+ |  Style Etag (Aggressive Detection)
+ |   - https://www.mon-autoentreprise.fr/wp-admin/load-styles.php, Match: '6.2.2'
+ |  Query Parameter In Install Page (Aggressive Detection)
+ |   - https://www.mon-autoentreprise.fr/wp-includes/css/dashicons.min.css?ver=6.2.2
+ |   - https://www.mon-autoentreprise.fr/wp-includes/css/buttons.min.css?ver=6.2.2
+ |   - https://www.mon-autoentreprise.fr/wp-admin/css/forms.min.css?ver=6.2.2
+ |   - https://www.mon-autoentreprise.fr/wp-admin/css/l10n.min.css?ver=6.2.2
+ |   - https://www.mon-autoentreprise.fr/wp-admin/css/install.min.css?ver=6.2.2
+
+[32m[+][0m WordPress theme in use: Divi-child
+ | Location: https://www.mon-autoentreprise.fr/wp-content/themes/Divi-child/
+ | Style URL: https://www.mon-autoentreprise.fr/wp-content/themes/Divi-child/style.css?ver=4.21.0
+ | Style Name: Divi Child
+ | Style URI: http://www.elegantthemes.com/gallery/divi/
+ | Description: Smart. Flexible. Beautiful. Divi is 
